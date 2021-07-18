@@ -52,7 +52,6 @@ export default {
   data() {
     return {
       title: '',
-      image: '',
       desc: '',
       previewImage: '',
       camera,
@@ -71,7 +70,7 @@ export default {
     onSubmit() {
       this.$emit('save-memory', {
         title: this.title,
-        image: this.image,
+        image: this.previewImage,
         description: this.desc,
       });
     },

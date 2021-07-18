@@ -1,6 +1,6 @@
 {
 	"appId": "com.netlify5595.netlify",
 	"appName": "VueMemories",
-	"webDir": "public",
+	"webDir": "dist",
 	"bundledWebRuntime": false
 }
